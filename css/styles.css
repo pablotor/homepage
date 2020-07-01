@@ -165,7 +165,7 @@ p {
   height: auto;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 572px) {
   .big-company {
     width: auto;
     max-width: 22rem;
