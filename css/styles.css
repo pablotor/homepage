@@ -161,11 +161,12 @@ p {
 }
 
 .small-company {
-  width: 20rem;
+  width: 10rem;
   height: auto;
+  margin-bottom: 2rem;
 }
 
-@media (max-width: 572px) {
+@media (max-width: 768px) {
   .big-company {
     width: auto;
     max-width: 22rem;
@@ -176,9 +177,15 @@ p {
   .small-company {
     width: auto;
     height: 5rem;
-    margin: 3rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mw50 {
+    max-width: 50% !important;
   }
 }
 

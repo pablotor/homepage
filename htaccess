@@ -1,0 +1,29 @@
+
+# Redirect visitors to the root domain path (e.g. www.mywebsite.ch) to the appropriate language version
+# Fallback to English version if no matching browser language defined
+# Based on language version being at e.g. www.mywebsite.ch/de/
+
+RewriteEngine On
+
+# language is ES-AR (Argentina)
+RewriteCond %{HTTP:Accept-Language} ^es-ar [NC]
+RewriteRule ^$ /es/ [L,R=301]
+
+# language is ES-AR (Argentina)
+RewriteCond %{HTTP:Accept-Language} ^es-cl [NC]
+RewriteRule ^$ /es/ [L,R=301]
+
+# language is ES-MX (Mexico)
+RewriteCond %{HTTP:Accept-Language} ^es-mx [NC]
+RewriteRule ^$ /es/ [L,R=301]
+
+# language is ES-ES (Spain)
+RewriteCond %{HTTP:Accept-Language} ^es-es [NC]
+RewriteRule ^$ /es/ [L,R=301]
+
+# else redirect to the English version
+RewriteRule ^$ /en/ [L,R=301]
+
+RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^(www\.)?pablotorrubiano\.xyz
+RewriteRule ^(.*)$ https://pablotorrubiano.xyz/$1 [R,L]
