@@ -473,6 +473,12 @@ h1, .h1 {
   font-size: 6rem;
 }
 
+@media (max-width: 572px)  {
+  h1, .h1 {
+    font-size: 4.5rem;
+  }
+}
+
 h2, .h2 {
   font-size: 3.5rem;
 }
