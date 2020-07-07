@@ -13,9 +13,9 @@ si aconsejo como siento.
 El hombre vale por dentro
 que lo de afuera es prestau.
 Por plata que haiga juntao
-no te sientas cordillera,
-pues en la vida rutera
-aquel que se cree muy grande
+no te sientas cordillera.
+Pues en la vida rutera,
+aquel que se cree muy grande,
 se pone al lado de los andes
 y es un enano cualquiera.
 
