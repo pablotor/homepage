@@ -9,13 +9,14 @@
 
 
 Que naides quede enfadau
-Si aconsejo como siento
+si aconsejo como siento.
 El hombre vale por dentro
-Que lo de afuera es prestau
+que lo de afuera es prestau.
 Por plata que haiga juntao
-No te sientas cordillera
-Pues en la vida rutera
-Aquel que se cree muy grande
-Se pone al lado de los andes
-Y es un enano cualquiera
-          ~ Atahualpa Yupanqui
+no te sientas cordillera,
+pues en la vida rutera
+aquel que se cree muy grande
+se pone al lado de los andes
+y es un enano cualquiera
+
+~ Atahualpa Yupanqui
