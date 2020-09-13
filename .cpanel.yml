@@ -2,15 +2,15 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/zbkqwkdw8tdn/public_html
-    - rm $DEPLOYPATH/en/index.html.old
-    - rm $DEPLOYPATH/es/index.html.old
-    - rm $DEPLOYPATH/css/styles.css.old
-    - rm -R $DEPLOYPATH/assets.old
-    - mv $DEPLOYPATH/en/index.html $DEPLOYPATH/en/index.html.old
-    - mv $DEPLOYPATH/es/index.html $DEPLOYPATH/es/index.html.old
-    - mv $DEPLOYPATH/css/styles.css $DEPLOYPATH/css/styles.css.old
-    - mv -R $DEPLOYPATH/assets $DEPLOYPATH/assets.old
-    - cp ./en/index.html $DEPLOYPATH/en/
-    - cp ./es/index.html $DEPLOYPATH/es/
-    - cp ./css/styles.css $DEPLOYPATH/css/
-    - cp -R ./assets $DEPLOYPATH/
+    - /bin/rm $DEPLOYPATH/en/index.html.old
+    - /bin/rm $DEPLOYPATH/es/index.html.old
+    - /bin/rm $DEPLOYPATH/css/styles.css.old
+    - /bin/rm -R $DEPLOYPATH/assets.old
+    - /bin/mv $DEPLOYPATH/en/index.html $DEPLOYPATH/en/index.html.old
+    - /bin/mv $DEPLOYPATH/es/index.html $DEPLOYPATH/es/index.html.old
+    - /bin/mv $DEPLOYPATH/css/styles.css $DEPLOYPATH/css/styles.css.old
+    - /bin/mv -R $DEPLOYPATH/assets $DEPLOYPATH/assets.old
+    - /bin/cp ./en/index.html $DEPLOYPATH/en/
+    - /bin/cp ./es/index.html $DEPLOYPATH/es/
+    - /bin/cp ./css/styles.css $DEPLOYPATH/css/
+    - /bin/cp -R ./assets $DEPLOYPATH/
