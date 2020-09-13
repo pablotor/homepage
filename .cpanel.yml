@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html
+    - export DEPLOYPATH=/home/zbkqwkdw8tdn/public_html
     - rm $DEPLOYPATH/en/index.html.old
     - rm $DEPLOYPATH/es/index.html.old
     - rm $DEPLOYPATH/css/styles.css.old
